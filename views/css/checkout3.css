@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@keyframes Transition {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+/*NAV*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #F2F2F2;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: sticky;
+    top: 0;
+    background-color: #18385F;
+    width: 100%;
+    height: 90px;
+    z-index: 10;
+}
+
+.nav-item {
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    padding: 0;
+    margin-left:40px;
+    margin-top: 15px;
+}
+
+li.nav-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+
+li a.nav-link {
+    display: inline-block;
+    transition: all 0.8s;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 13px 11px;
+}
+
+li a.nav-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: #6899d141;
+    transition: 0.8s;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+/*----------------------------------*/
+
+
+
+/*----------------------------------*/
+/* Btn Login */
+div.loginopt .btn-login button {
+    background-color: #22989B;
+    width: 120px;
+    height: 60px;
+    margin:auto;
+    border-radius: 10px;
+    border:#0d7b7c 4px solid;
+    color: #ffffff;
+    transition: 0.7s;
+    }
+
+    div.loginopt .btn-login button font {
+        font-size:17px;
+        font-weight: 700;
+        }
+
+        div.loginopt .btn-login button:hover {
+            background-color: #177f80;
+            width: 120px;
+            height: 60px;
+            margin:auto;
+            border-radius: 10px;
+            border:#0d7b7c 4px solid;
+            color: #e5e5e5;
+            transition: 0.7s;
+            transform: scale(1.04);
+            }
+/*----------------------------------*/
+/* Btn Logout */
+div.loginopt .register{
+    font-size:17px;
+    font-weight:300;
+    margin-right:10px;
+    transition: 0.5s;
+    }
+
+    
+    
+
+/*font btn login*/
+div.btn-login li.nav-item button font {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 22px;
+    width: 47px;
+    height: 23px;
+     }
+
+     div.btn-login li.nav-item button:hover {
+        background-color: #196b6c;
+        margin:auto;
+        height: 70px;
+        margin-top: 15px;
+        border-radius: 10px;
+        border: #196b6c 4px solid;
+        }
+/*----------------------------------*/
+/*NAV*/
+
+/*----------------------------------*/
+/*Footer*/
+
+.text-para, .text-para-2, .text-para-3 {
+    font-size: 14.3px;
+}
+
+section, footer	 {
+        
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+     background-color: #162E44;
+ }
+ 
+ section.footer i a {
+     color: white;
+ }
+ 
+ .btn-footer {
+ height: 32px;
+ background: #00DCC4;
+ border-radius: 20px;
+ color: white;
+ font-weight: bold;
+ border: 1px solid #00DCC4;
+ }
+ 
+ .btn-footer {
+    margin-top: 5px;
+     height: 30px;
+     background: #00DCC4;
+     border-radius: 20px;
+     color: white;
+     font-weight: bold;
+     border: 1px solid #00DCC4;
+     box-shadow: 0px 7px 0px 0px #006d61;
+     transition: 0.3s;    
+ }
+ 
+ .btn-footer a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+     .btn-footer:hover{
+         background-color:#00DCC4;
+         border: 2px solid #00DCC4;
+       box-shadow: 0px 7px 0px 0px #006d61;
+         transform: scale(1.08);
+         transition: 0.3s;
+     }
+
+
+
+
+
+
+/*----------------------------------*/
+/*Footer*/
+
+
+
+
+
+/* ----------------------------------------------- */
+    /* Checkout Form */
+    
+
+
+p {
+    margin: 0%;
+}
+
+.container-2 {
+    animation-name:Transition;
+    animation-duration: 1s;
+    max-width: 950px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    border-radius: 30px;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.11),
+    0 10px 17px rgba(0, 0, 0, 0.48);
+}
+
+
+
+
+.box-1 {
+    max-width: 450px;
+    padding: 10px 40px;
+    user-select: none;
+}
+
+.box-1 div .fs-12 {
+    font-size: 8px;
+    color: white;
+}
+
+.box-1 div .fs-14 {
+    font-size: 15px;
+    color: white;
+}
+
+.box-1 img.pic {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.box-1 img.mobile-pic {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.box-1 .name {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.dis {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+label.box {
+    width: 100%;
+    font-size: 12px;
+    border-top: 15px solid #00ffe140;
+    height: auto;
+    padding: 10px 50px 10px 10px;
+    background: rgba(200, 200, 200, 0.333);
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 10px 10px; 
+}
+
+
+
+label.box .course {
+    width: 100%;
+    
+}
+
+label.box .circle {
+    
+    height: 12px;
+    width: 12px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 4px solid transparent;
+    display: inline-block;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.box-2 {
+    max-width: 450px;
+    padding: 10px 40px;
+    
+}
+
+
+.box-2 .box-inner-2 input.form-control {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.box-2 .box-inner-2 .inputWithIcon {
+    position: relative;
+}
+
+.box-2 .box-inner-2 .inputWithIcon span {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+}
+
+.box-2 .box-inner-2 .inputWithcheck {
+    position: relative;
+}
+
+.box-2 .box-inner-2 .inputWithcheck span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 15px;
+    top: 6px;
+}
+
+.form-control {
+    border: 2px solid #00ffe140;
+}
+
+.form-control:focus,
+.form-select:focus {
+    
+        border-color: #00ffe140;
+        box-shadow: 0px 5px 0px 0px #00ad998b;
+        transition: 0.6s;
+    
+}
+
+.border:focus-within {
+    border: 1px solid #7700ff !important;
+}
+
+.box-2 .card-atm .form-control {
+    border: none;
+    box-shadow: none;
+}
+
+.form-select {
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.address .form-control.zip {
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+
+}
+
+.address .form-control.state {
+    border-radius: 0;
+    border-bottom-right-radius: 10px;
+
+}
+
+.box-2 .box-inner-2 .btn.btn-outline-primary {
+    width: 120px;
+    padding: 10px;
+    font-size: 11px;
+    padding: 0% !important;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 600;
+}
+
+.box-2 .box-inner-2 .btn.btn-primary {
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+}
+
+.text-container {
+    width: auto;
+    height: auto;
+    padding: 10px 50px 10px 10px;
+    background: rgba(200, 200, 200, 0.333);
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 10px 10px;
+    }
+
+.text-container p {
+    font-size: 13px;
+}
+
+.btn {
+    height: 32px;
+    background: #00DCC4;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #00DCC4;
+    box-shadow: 0px 7px 0px 0px #00ad9c;
+    transition: 0.3s;    
+}
+
+.btn:hover {
+    height: 32px;
+    background: #00DCC4;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #00DCC4;
+    box-shadow: 0px 7px 0px 0px #00ad9c;
+    transition: 0.3s; 
+    transform: scale(1.02);
+        transition: 0.3s;   
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+textarea {
+    border: none;
+    border-radius: 5px;
+}
+
+
+.box-2 .box-inner-2 .btn.btn-primary .fas {
+    font-size: 13px !important;
+    color: whitesmoke;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #006d61;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-control-prev {
+    transform: translateX(-50%);
+    opacity: 1;
+}
+
+.carousel-control-prev:hover .fas.fa-arrow-left {
+    transform: translateX(-5px);
+}
+
+.carousel-control-next {
+    transform: translateX(50%);
+    opacity: 1;
+}
+
+.carousel-control-next:hover .fas.fa-arrow-right {
+    transform: translateX(5px);
+}
+
+.fas.fa-arrow-left,
+.fas.fa-arrow-right {
+    font-size: 0.8rem;
+    transition: all .2s ease;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #f8f9fa;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform-origin: center;
+    opacity: 1;
+}
+
+.fas,
+.fab {
+    color: #6d6c6d;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 700px;
+        margin: 10px auto;
+    }
+
+    .box-1,
+    .box-2 {
+        max-width: 600px;
+        padding: 20px 90px;
+        margin: 20px auto;
+    }
+
+}
+
+@media (max-width:426px) {
+
+    .box-1,
+    .box-2 {
+        max-width: 400px;
+        padding: 20px 10px;
+    }
+
+    ::placeholder {
+        font-size: 9px;
+    }
+}
+    
+
